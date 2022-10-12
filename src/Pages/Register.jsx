@@ -32,10 +32,6 @@ const Register = () => {
     const [username, setUsername] = useState("");
     const [NotEqualPass , setNotEqualPass] = useState(false);
     
-
-
-   
-
     const HandleImage = (e) => {
         e.preventDefault();
 

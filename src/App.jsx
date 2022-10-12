@@ -29,7 +29,7 @@ const theme = {
         mobileL: "480px",
         mobileM: "400px",
         mobileS: "360px",
-    },
+    },  
 };
 
 function App() {
