@@ -19,14 +19,14 @@ const Login = () => {
 
   const google = (e)=>{
     e.preventDefault();
-    window.open("https://secretmeph.herokuapp.com/auth/google", "_self" )
+    window.open("https://secretme.onrender.com/auth/google", "_self" )
   
   }
 
 
   const facebook = (e)=>{
     e.preventDefault();
-    window.open("https://secretmeph.herokuapp.com/auth/facebook", "_self")
+    window.open("https://secretme.onrender.com/auth/facebook", "_self")
     
   }
 

@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { GetMessage } from "../redux/apiCalls";
 import LetterMeMessage from './LetterMeMessage';
 import SimpleBar from 'simplebar-react';
-import 'simplebar/dist/simplebar.min.css';
+
 
 
 
@@ -25,7 +25,7 @@ const Link = () => {
     const [MessageEnter, setMessageEnter] = useState(false);
 
     const HandleCopyClick = () => {
-        navigator.clipboard.writeText(`https://secretmeph.herokuapp.com/SendMessage?userID=${receiverID}`);
+        navigator.clipboard.writeText(`https://secretme.onrender.com/SendMessage?userID=${receiverID}`);
         setButtonClick(true);
     }
 
@@ -72,7 +72,7 @@ const Link = () => {
                 <LinkWrapper>
                     <h3>This is your generated SecretMe link, anyone can message you anonymously using this link</h3>
                     <div>
-                        <input type="text" value={`https://secretmeph.herokuapp.com/SendMessage?userID=${receiverID}`} disabled >
+                        <input type="text" value={`https://secretme.onrender.com/SendMessage?userID=${receiverID}`} disabled >
                         </input>
                         <ButtonCopy colorcondition={ButtonClick && "gray"} conditon={ButtonClick} onClick={HandleCopyClick}>
                             <AiOutlineCopy />

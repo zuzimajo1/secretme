@@ -21,7 +21,7 @@ const Navbar = () => {
       UserLogout(dispatch);
       MessageLogout(dispatch);
     } else if (socialUser === true) {
-      window.open("https://secretmeph.herokuapp.com/auth/logout", "_self");
+      window.open("https://secretme.onrender.com/auth/logout", "_self");
       UserLogout(dispatch);
     }
   }
