@@ -1,7 +1,7 @@
 
-<h1 align="center"><a href='https://secretmeph.herokuapp.com/login' target='_blank' rel='noreferrer'>Secret</a></h1>
+<h1 align="center"><a href='https://secretmeph.herokuapp.com/login' target='_blank' rel='noreferrer'>SecretMe</a></h1>
 
-<h2 align="center">SecretmePH is the web app that allows the users to send messages anonymously.</h2>
+<h2 align="center">Secretme is the web app that allows the users to send messages anonymously.</h2>
 
 ## ⚒️ Built with the following technologies:
 
