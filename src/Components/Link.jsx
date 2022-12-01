@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { GetMessage } from "../redux/apiCalls";
 import LetterMeMessage from './LetterMeMessage';
 import SimpleBar from 'simplebar-react';
-
+import 'simplebar-react/dist/simplebar.min.css';
 
 
 
